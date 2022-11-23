@@ -1,0 +1,29 @@
+.departamento{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.articulosDestacados{
+    width: 100%;
+    height: 100%;
+}
+
+.articulosDestacados button:nth-child(3){
+    margin-left: 90%;
+}
+
+#img{
+    width: 50px;
+    height: auto;
+}
+
+.articuloDepartamento{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    flex-direction: row;
+    align-items: center;
+}

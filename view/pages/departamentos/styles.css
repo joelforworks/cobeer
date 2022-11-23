@@ -1,0 +1,103 @@
+html,body {
+  margin:0;
+  padding:0;
+}
+/* Grid layout*/
+body{
+  width:100vw;
+  display: grid;
+  grid-template-columns: 20vw 30vw;
+  grid-template-rows: 30vh 40vh auto auto 20vh;
+  grid-template-areas: 
+  "header     header"
+  "main       main"
+  "aside      aside"
+  "footer     footer"
+}
+header{ grid-area: header; }
+main{ grid-area: main; }
+aside{ grid-area: aside; }
+footer{ grid-area: footer; }
+
+
+/*SECTION*/
+.layout{
+  display:flex;
+  width: 100%;
+  height: 100%;
+
+  flex-direction: column;
+}
+
+/*HEADER*/
+.header {
+  width: 100%;
+  height: 100%;
+}
+
+/*MAIN*/
+.main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.articulos {
+width: 100% ;
+height: 100% ;
+display: flex;
+flex-direction: row;
+
+}
+
+
+
+/* FLEX GENERATOR *********************************************************************/
+/*
+.articulos {
+  width: 100%;
+
+  display: flex;
+  gap: 16px;
+
+  align-items: center;
+}
+
+.articulos div{ flex-grow: 1;}
+*/
+
+/* CSS MAIN *********************************************************************/
+/*
+
+.main h1 {
+
+  text-align: center;
+  color: #2741a8;
+  font-size: 2em;
+
+
+}
+
+.main h5{
+
+  text-align: center;
+  color: #7f0f18;
+  font-size: 2em;
+
+}
+.main h3 {
+
+  color:#7f0f18
+  
+}ç*/
+/* CSS Footer *********************************************************************/
+/*
+.footer {
+
+  text-align: center;
+}
+
+  */

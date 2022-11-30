@@ -22,7 +22,7 @@
         
         <section>
             <!-- Componente artículos -->
-            <?php include //'../../../components/articulosDestacados/component.php' ?>
+            <?php include '../../../components/articulosDestacados/component.php' ?>
         </section>
 
        <section>

@@ -1,0 +1,22 @@
+.mapa {
+	display:flex;
+	flex-flow:row wrap;
+	align-items:center;
+	justify-content:center;
+}
+
+
+#infoBottle {
+	opacity:0;
+	transition:1s;
+}
+
+#infoBottle *{
+	width:0px;
+}
+
+
+
+.mapa:hover #infoBottle{
+	opacity: 1;
+}

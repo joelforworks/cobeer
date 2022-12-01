@@ -13,7 +13,7 @@
 <body>
   <div class="layout">
     <header>pàgina departaments
-      <?php include '../../../components/header/component.php' ?>
+    <div><?php include dirname(__DIR__, 1).'\header\component.php'?></div>
     </header>
 
     <main>

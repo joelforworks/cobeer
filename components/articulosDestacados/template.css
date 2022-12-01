@@ -23,8 +23,8 @@ body {
     position: relative;
     display: inherit;height: 400px; width: 600px;
     left: 50%;
-    margin-top: 20%;
-    margin-right: 50%;
+    margin-top: 15%;
+    margin-right: 70%;
     transform: translate(-50%, -50%);
     background: #f2f2f2;
     overflow: hidden;

@@ -12,14 +12,13 @@
 
 <body>
     <div class="layout">
-        <header>
+
             <?php include '../../../components/header/component.php';?>
-</header>
 
         <main>
         <!-- FORMULARIO LOGIN -->
         <div>
-            <?php include '../../../components/login-form/component.php';?> 
+            <?php include '../../../components/loginForm/component.php';?> 
         </div>
         
 </main>

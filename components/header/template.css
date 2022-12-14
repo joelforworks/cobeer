@@ -3,3 +3,9 @@
     display: flex;
     justify-content: center;
 }
+
+.buscar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

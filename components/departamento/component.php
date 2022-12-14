@@ -15,10 +15,10 @@
 
         <div class="articulos">
             <div class="articulo">
-                <h2>Titulo articulo</h2>
+                <h1>Titulo articulo</h1>
                 <img src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quaerat enim ex quisquam maxime, dolor rerum? Voluptatem modi, error, necessitatibus quod temporibus in soluta, beatae eius ratione repudiandae velit
-                    facilis officiis quia unde delectus culpa vero repellat tempora dolor. Quo!</p>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quaerat enim ex quisquam maxime, dolor rerum? Voluptatem modi, error, necessitatibus quod temporibus in soluta, beatae eius ratione repudiandae velit
+                    facilis officiis quia unde delectus culpa vero repellat tempora dolor. Quo!</h3>
             </div>
             
         </div>
@@ -31,3 +31,11 @@
         </div>
     </div>
 </div>
+
+<!-- <div class="container">
+  <div class="content">
+    <h1>Pratham</h1>
+    <h3>I love designing websites and keep things as simple as possible. My goals is to focus on minimalism and conveying the message that you want to send</h3>
+  </div>
+  <div class="flap"></div>
+</div> -->

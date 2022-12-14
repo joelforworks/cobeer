@@ -12,13 +12,13 @@
 
 
         <!-- Componente header -->
-        <?php include '../../../components/header/component.php' ?>
+        <div ><?php include dirname(__DIR__, 1).'\header\component.php'?></div>
 
 
     <main>    
         <section>
             <!-- Componente artículos -->
-            <?php include '../../../components/articulosDestacados/component.php' ?>
+            <div><?php include dirname(__DIR__, 1).'\articulosDestacados\component.php'?></div>
         </section>
 
        <!-- <section>
@@ -32,7 +32,7 @@
     
     <footer>
         <!-- Componente footer -->
-        <?php include '../../../components/footer/component.php' ?>
+        <div ><?php include dirname(__DIR__, 1).'\footer\component.php'?></div>
     </footer>
 
 </body>

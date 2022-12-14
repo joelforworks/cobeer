@@ -1,5 +1,5 @@
 <div class="editar_articulo">
-    <div class="mostrar_articulo"><?php include '..\..\components\articulo_resultad_buscado' ?></div>
+    <div class="mostrar_articulo"><?php include '../../components/articulo_resultad_buscado' ?></div>
     <!-- Lo mejor seria acceder a la base de datos, al articulo en cuestion
     y extraer cada area que nos interese: -->
     <div class="ed_foto">

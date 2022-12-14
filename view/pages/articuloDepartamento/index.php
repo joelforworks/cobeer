@@ -14,7 +14,7 @@
       <header><?php include '../../../components/header/component.php' ?></header>
       
         <main>
-          <?php include '../../../components/articuloDepartamento/component.php' ?>
+          <?php include '../../../components/articulo_departamento/component.php' ?>
         </main>
 
         <footer><?php include '../../../components/footer/component.php' ?></footer>

@@ -18,7 +18,8 @@
     <main>    
         <section>
             <!-- Componente artículos -->
-            <div><?php include'../../../components/articulosDestacados/component.php'?></div>
+            <?php include '../../../components/articulosDestacados/component.php' ?> 
+    
         </section>
 
        <!-- <section>

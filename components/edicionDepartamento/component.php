@@ -4,20 +4,20 @@
 
 <div class="departamento">
         <div class='artDestacados'>
-            <?php include '..\..\components\articulosDestacados\component.php' ?>
+            <?php include '../../components/articulosDestacados/component.php' ?>
             <button>Añadir</button>
             <button>Editar</button>
         </div>
 
         <div class='articuloDepartamento'>>
             <div>
-                <?php include '..\..\components\resumenArticulo\component.php' ?>
+                <?php include '../../components/resumenArticulo/component.php' ?>
                 <button type='submit'>Añadir</button>
                 <button type='submit'>Editar</button>
             </div>
 
             <div>
-                <?php include '..\..\components\resumenArticulo\component.php' ?>
+                <?php include '../../components/resumenArticulo/component.php' ?>
                 <button type='submit'>Añadir</button>
                 <button type='submit'>Editar</button>
             </div>

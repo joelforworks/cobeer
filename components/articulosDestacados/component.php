@@ -11,7 +11,7 @@
   <div class="container">
     <div class="content">
       <h1>Pratham</h1>
-      <?php include dirname(__DIR__, 1).'\resumenArticulo\component.php' ?>  </div>
+      <?php include dirname(__DIR__, 1).'/resumenArticulo/component.php' ?>  </div>
     <div class="flap"></div>
   </div>
 

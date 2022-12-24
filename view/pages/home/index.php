@@ -35,7 +35,7 @@
     </main>
     
     <footer>
-        <!-- Componente footer -->
+         Componente footer -->
         <div ><?php '../../../components/footer/component.php'?></div>
     </footer>
 

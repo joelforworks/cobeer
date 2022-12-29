@@ -3,8 +3,8 @@
     <?php include __DIR__ . '/template.css'; ?>
 </style>
 <header>
-
-  <?php include dirname(__DIR__, 1).'/header/component.php' ?>
+<div><?php include dirname(__DIR__, 1).'/header/component.php' ?></div>
+  
 </header>
 <body>
     <!-- <div class='slide'>

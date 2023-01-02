@@ -10,10 +10,10 @@
 <body>
 <div class="layout">
 
-
+    <header>
         <!-- Componente header -->
         <div ><?php include '../../../components/header/component.php'?></div>
-
+    </header>
 
     <main>    
         <section>
@@ -22,7 +22,7 @@
             <?php include '../../../components/articulosDestacados/component.php' ?> 
     
         </section>
-
+    </main>
        <!-- <section>
         <div class="mapa">
             <img src="http://localhost/cobeer3/cobeer/assets/imagenes/mosto-1.png" heigh="80" width="80" alt="" title="loreipsum">
@@ -32,10 +32,11 @@
 
        </section> 
 
-    </main>
     
-    <footer>
+    
+  
          Componente footer -->
+    <footer>
         <div ><?php '../../../components/footer/component.php'?></div>
     </footer>
 

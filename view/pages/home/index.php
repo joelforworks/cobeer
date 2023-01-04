@@ -26,7 +26,6 @@
     
     
   
-         Componente footer -->
     <footer>
         <!-- Componente footer -->
         <div ><?php include '../../../components/footer/component.php'?></div>

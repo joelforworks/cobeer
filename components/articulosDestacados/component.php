@@ -1,17 +1,6 @@
-<html>
 <style>
     <?php include __DIR__ . '/template.css'; ?>
 </style>
-<header>
-<div><?php include dirname(__DIR__, 1).'/header/component.php' ?></div>
-  
-</header>
-<body>
-    <!-- <div class='slide'>
-        <button type="submit">Anterior Artículo</button>
-        <button type="submit">Siguiente Artículo</button>
-    </div>
-</div> -->
 
 <ul class="cards">
   <li>
@@ -193,16 +182,4 @@
     </a>
   </li>  
 </ul>
-
-<!-- <div>
-  <div class="container">
-    <div class="content">
-      <h1>Pratham</h1>
-      </div>
-    <div class="flap"></div>
-  </div> -->
-  <!-- <?php include dirname(__DIR__, 1).'/resumenArticulo/component.php' ?>  -->
-  
-</body>
-</html>
 

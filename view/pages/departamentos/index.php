@@ -12,18 +12,13 @@
 
 <body>
   <div class="layout">
-    <header>pàgina departaments
-    <div><?php include dirname(__DIR__, 1).'\header\component.php'?></div>
+    <header>
+    <?php include '../../../components/header/component.php' ?>  
+    
     </header>
 
     <main>
-      <div>
-        <h1>NOM DEL DEPARTAMENT</h1>
-      </div>
-
-      <div>
-        <h5>ARTICLES DESTACATS</h5>
-      </div>
+     
       <div class="aside">
         <?php include '../../../components/articulosDestacados/component.php' ?>
       </div>

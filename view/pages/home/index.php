@@ -10,10 +10,10 @@
 <body>
 <div class="layout">
 
-
+    <header>
         <!-- Componente header -->
         <div ><?php include '../../../components/header/component.php'?></div>
-
+    </header>
 
     <main>    
         <section>
@@ -24,6 +24,9 @@
         </section>
 
     
+    
+  
+         Componente footer -->
     <footer>
         <!-- Componente footer -->
         <div ><?php include '../../../components/footer/component.php'?></div>

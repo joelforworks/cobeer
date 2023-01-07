@@ -10,7 +10,7 @@
         <header>
             <div> <?php include '../../../components/header/component.php' ?></div>
         </header>
-        <?php include '../../../components/articulo_departamento/component.php'?>
+        <?php include '../../../components/articuloDepartamento/component.php'?>
 
     <footer>
         <!-- Componente footer -->

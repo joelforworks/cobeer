@@ -12,9 +12,14 @@
 
 <body>
   <div class="layout">
+<<<<<<< HEAD
+    <header>pàgina departaments
+    <div><?php include '../../../components/header/component.php'?></div>
+=======
     <header>
     <?php include '../../../components/header/component.php' ?>  
     
+>>>>>>> 27cf3d42b2c9f23781ae67f6716428b03b021360
     </header>
 
     <main>
@@ -25,11 +30,11 @@
 
       <div class="articulos">
         <div>
-          <?php include '../../../components/articulo_departamento/component.php' ?>
+          <?php include '../../../components/articuloDepartamento/component.php' ?>
         </div>
 
         <div>
-          <?php include '../../../components/articulo_departamento/component.php' ?>
+          <?php include '../../../components/articuloDepartamento/component.php' ?>
         </div>
       </div>
     </main>

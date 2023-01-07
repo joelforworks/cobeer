@@ -58,7 +58,7 @@ body {
   align-items: center;
   gap: 2em;
   padding: 2em;
-  border-radius: calc(var(--curve) * 1px) 0 0 0;    
+  border-radius: calc(var(--curve) * 100px) 0 0 0;    
   background-color: var(--surface-color);
   transform: translateY(-100%);
   transition: .2s ease-in-out;
@@ -101,6 +101,7 @@ body {
   font-family: "MockFlowFont";  
   font-size: .8em; 
   color: #ef0379;  
+  border-radius:50px;
 }
 
 
@@ -113,4 +114,5 @@ body {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   overflow: hidden;
+  border-radius:50px;
 }    

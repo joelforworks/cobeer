@@ -12,14 +12,9 @@
 
 <body>
   <div class="layout">
-<<<<<<< HEAD
+
     <header>pàgina departaments
     <div><?php include '../../../components/header/component.php'?></div>
-=======
-    <header>
-    <?php include '../../../components/header/component.php' ?>  
-    
->>>>>>> 27cf3d42b2c9f23781ae67f6716428b03b021360
     </header>
 
     <main>

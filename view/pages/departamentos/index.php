@@ -13,7 +13,7 @@
 <body>
   <div class="layout">
     <header>pàgina departaments
-    <div><?php include dirname(__DIR__, 1).'\header\component.php'?></div>
+    <div><?php include '../../../components/header/component.php'?></div>
     </header>
 
     <main>
@@ -30,11 +30,11 @@
 
       <div class="articulos">
         <div>
-          <?php include '../../../components/articulo_departamento/component.php' ?>
+          <?php include '../../../components/articuloDepartamento/component.php' ?>
         </div>
 
         <div>
-          <?php include '../../../components/articulo_departamento/component.php' ?>
+          <?php include '../../../components/articuloDepartamento/component.php' ?>
         </div>
       </div>
     </main>

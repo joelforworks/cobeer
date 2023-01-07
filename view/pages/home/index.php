@@ -12,7 +12,7 @@
 
 
         <!-- Componente header -->
-        <div ><?php include dirname(__DIR__, 1).'\header\component.php'?></div>
+        <div ><?php include '../../../components/header/component.php'?></div>
 
 
     <main>    
@@ -35,7 +35,7 @@
     
     <footer>
         <!-- Componente footer -->
-        <div ><?php include dirname(__DIR__, 1).'\footer\component.php'?></div>
+        <div ><?php include '../../../components/footer/component.php'?></div>
     </footer>
 
 </body>

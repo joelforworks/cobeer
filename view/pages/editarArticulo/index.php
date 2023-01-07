@@ -13,7 +13,7 @@
 <body>
     <div class="layout">
         <header><?php include '../../../components/header/component.php' ?></header>
-        <main><?php include '../../../components/editar_articulo/component.php' ?></main>            
+        <main><?php include '../../../components/editarArticulo/component.php' ?></main>            
         <footer><?php include '../../../components/footer/component.php' ?></footer>
     </section>
 </body>

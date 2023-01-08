@@ -1,21 +1,19 @@
 
-let area = document.querySelectorAll('area')[0]
+let area = document.querySelectorAll('area');
 
-console.log(area)
+console.log(area);
 
-area.addEventListener(
-	"click",
-	()=>{
-		let options = {
-			'none':'inline-block',
-			'':'inline-block',
-			'inline-block':'none',
-		}
-		let trigo =document.querySelectorAll('.trigo')[0].style.display; 
-		console.log(trigo);
-		document.querySelectorAll('.trigo')[0].style.display = options[trigo];
-	}
-	,
-	false
-);
+area.forEach((element)=>{
+	console.log("Element: ",element);
+	console.log("Title: ",element.title);
+	let id = element.title;
+	console.log(document.getElementById(`${id}`));
+	element.onmouseover=()=>{
+		document.getElementById(`${id}`).style.display="inline-block";
+		document.getElementById(`${id}`).style.width="300px";
+	};
+	element.onmouseout=()=>{
+		document.getElementById(`${id}`).style.display="none";
+	};
+});
 

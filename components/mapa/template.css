@@ -1,6 +1,62 @@
+.mapa {
+	display: flex;
+	justify-content:center;
+	padding: 2em;
+	z-index:3;
+}
+
 .trigo{
 	position:absolute;
 	display:none;
 	background-color:red;
 	left: 100px;
+}
+
+.step {
+	display:none;
+	position:absolute;
+}
+.step p{
+	width:300px;
+}
+
+#step1 {
+	top:50%;
+	left:10%;
+}
+#step2 {
+	top:50%;
+	left:10%;
+}
+#step3 {
+	top:50%;
+	left:10%;
+}
+#step4 {
+	top:50%;
+	left:10%;
+}
+#step5 {
+	top:50%;
+	left:10%;
+}
+#step6 {
+	top:15%;
+	left:65%;
+}
+#step7 {
+	top:15%;
+	left:65%;
+}
+#step8 {
+	top:15%;
+	left:65%;
+}
+#step9 {
+	top:15%;
+	left:65%;
+}
+#step10 {
+	top:15%;
+	left:65%;
 }

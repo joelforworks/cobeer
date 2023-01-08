@@ -12,11 +12,12 @@
 
     <header>
         <!-- Componente header -->
-        <div ><?php include '../../../components/header/component.php'?></div>
+        <?php include '../../../components/header/component.php'?>
     </header>
 
     <main>    
         <section>
+            <!-- Componente mapa -->
             <?php include '../../../components/mapa/component.php'?>
             <!-- Componente artículos -->
             <?php include '../../../components/articulosDestacados/component.php' ?> 

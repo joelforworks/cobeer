@@ -8,8 +8,6 @@
     <title>Register</title>
 </head>
 <body>
-    <?php 
-    include __DIR__.'/../../../snippets/register-form/component.php'; 
-    ?>
+    <?php include '../../../components/registerForm/component.php'; ?>
 </body>
 </html>

@@ -26,20 +26,20 @@
             </div>
 
             <div class='articuloDepartamento'>
-                <div>
-                    <?php include '..\..\..\components\editar_articulo\component.php' 
+                <div>º
+                    <?php include '../../../components/editarArticulo/component.php' 
                     ?>
                 </div>
 
                 <div>
-                    <?php include '..\..\..\components\editar_articulo\component.php' 
+                    <?php include '../../../components/editarArticulo/component.php' 
                     ?>
                 </div>
             </div>
 
         </main>
         <footer>
-            <?php include '..\..\..\components\footer\component.php' ?>
+            <?php include '../../../components/footer/component.php' ?>
         </footer>
 
     </section>

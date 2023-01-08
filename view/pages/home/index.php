@@ -13,7 +13,9 @@
     <header>
         <!-- Componente header -->
         <?php include '../../../components/header/component.php'?>
+
     </header>
+
 
     <main>    
         <section>

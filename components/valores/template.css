@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:rgb(189, 120, 64);
+}
+
+
+img{
+    height:50px;
+    position: relative;
+    top:130px;
+    left: 250px;
+ 
+}
+h3{
+    color:rgb(10, 10, 20);
+    position: relative;
+    top:165px;
+    left: 180px;
+}
+header{
+    display:flex;
+    justify-content:center;
+    color:rgb(102, 56, 39);
+    font-size:39px;
+}
+#contenedor{
+    display:flex;
+    flex-direction: row;
+    /* justify-content:space; */
+
+}
+p{
+    color:rgb(231, 222, 219);
+    position: relative;
+    top:200px;
+}

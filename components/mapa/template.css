@@ -13,7 +13,7 @@
 }
 
 .step {
-	display:none;
+	opacity:0;
 	position:absolute;
 }
 .step p{

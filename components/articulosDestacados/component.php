@@ -1,8 +1,3 @@
-<header>
-  <div>
-  <?php include dirname(__DIR__, 1).'/header/component.php' ?>
-  </div>
-</header>
 <style>
     <?php include __DIR__ . '/template.css'; ?>
 </style>

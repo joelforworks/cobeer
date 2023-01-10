@@ -41,10 +41,8 @@ body, html{
     grid-area: main;
     /* background-color: yellow;  */
 }
-  footer { 
-    width: 100%;
-    grid-area: footer;
-    /* background-color: brown;  */
-  }
-
-
+footer { 
+  width: 100%;
+  grid-area: footer;
+  /* background-color: brown;  */
+}

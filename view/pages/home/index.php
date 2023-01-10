@@ -21,6 +21,8 @@
         <section>
             <!-- Componente mapa -->
             <?php include '../../../components/mapa/component.php'?>
+            <!-- Componente valores -->
+            <?php include '../../../components/valores/component.php'?>
             <!-- Componente artículos -->
             <?php include '../../../components/articulosDestacados/component.php' ?> 
     

@@ -1,25 +1,31 @@
-<link rel="stylesheet" href="template.css">
-<header>LOREIPSUM</header>
 
-<div id="contenedor">
-<img src="cerveza.png">
-<h3>loreipsum1</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi enim,
-    dapibus sed rhoncus vitae, ultrices ullamcorper mi. Class aptent taciti sociosqu
-    ad litora torquent per conubia nostra, per inceptos himenaeos. In dictum ligula
-    eget magna efficitur finibus. Integer quis magna tincidunt.</p>
+<style>
+    <?php include 'template.css';?>
+</style>
 
-<img src="cerveza.png">
-<h3>loreipsum2</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi enim,
-    dapibus sed rhoncus vitae, ultrices ullamcorper mi. Class aptent taciti sociosqu
-    ad litora torquent per conubia nostra, per inceptos himenaeos. In dictum ligula
-    eget magna efficitur finibus. Integer quis magna tincidunt.</p>
-
-<img src="cerveza.png">
-<h3>loreipsum3</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi enim,
-    dapibus sed rhoncus vitae, ultrices ullamcorper mi. Class aptent taciti sociosqu
-    ad litora torquent per conubia nostra, per inceptos himenaeos. In dictum ligula
-    eget magna efficitur finibus. Integer quis magna tincidunt.</p>
+<div id="valores">
+    <div class="valor">
+        <img src="/assets/valoresIconos/hecho-con-amor.png">
+        <span class="title">loreipsum1</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi enim,
+            dapibus sed rhoncus vitae, ultrices ullamcorper mi. Class aptent taciti sociosqu
+            ad litora torquent per conubia nostra, per inceptos himenaeos. In dictum ligula
+            eget magna efficitur finibus. Integer quis magna tincidunt.</p>
+    </div>
+    <div class="valor">
+        <img src="/assets/valoresIconos/esquema-de-colores.png">
+        <span class="title">loreipsum2</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi enim,
+            dapibus sed rhoncus vitae, ultrices ullamcorper mi. Class aptent taciti sociosqu
+            ad litora torquent per conubia nostra, per inceptos himenaeos. In dictum ligula
+            eget magna efficitur finibus. Integer quis magna tincidunt.</p>
+    </div>
+    <div class="valor">
+        <img src="/assets/valoresIconos/students.png">
+        <span class="title">loreipsum2</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi enim,
+            dapibus sed rhoncus vitae, ultrices ullamcorper mi. Class aptent taciti sociosqu
+            ad litora torquent per conubia nostra, per inceptos himenaeos. In dictum ligula
+            eget magna efficitur finibus. Integer quis magna tincidunt.</p>
+    </div>
 </div>

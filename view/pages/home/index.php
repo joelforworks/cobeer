@@ -12,15 +12,14 @@
 
     <header>
         <!-- Componente header -->
-        <div ><?php include '../../../components/header/component.php'?></div>
-<<<<<<< HEAD
+        <?php include '../../../components/header/component.php'?>
 
-=======
     </header>
->>>>>>> 27cf3d42b2c9f23781ae67f6716428b03b021360
+
 
     <main>    
         <section>
+            <!-- Componente mapa -->
             <?php include '../../../components/mapa/component.php'?>
             <!-- Componente artículos -->
             <?php include '../../../components/articulosDestacados/component.php' ?> 

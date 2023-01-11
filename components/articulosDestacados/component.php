@@ -1,6 +1,7 @@
 <style>
     <?php include __DIR__ . '/template.css'; ?>
 </style>
+<?php include dirname(__DIR__, 1).'/header/component.php' ?>
 <div>
   <ul class="cards">
     <li>
@@ -49,4 +50,5 @@
     </li>
   </ul>
 </div>
+<?php include dirname(__DIR__, 1).'/footer/component.php' ?>
 
